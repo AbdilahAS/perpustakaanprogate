@@ -1,0 +1,158 @@
+body{
+    font-family: "Lucida Sans";
+}
+
+/* menargetkan selected header */
+.header{
+    background-color: aqua;
+}
+.header{
+    height: 90px;
+}
+
+
+ 
+/* menargetkan selected main */
+.main{
+   /* background-color: cadetblue;  /* Hapuskan CSS background-color */
+   /* height: 600px; /* Hapuskan CSS height */
+   /* Gantikan padding atas & bawah ke 100px, dan padding kiri & kanan ke 80px */
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.copy-container {
+    padding-top: 180px;
+    padding-bottom: 120px;
+    color: white;
+    background-image: url(perpusnas.jpg);
+    background-size: cover;
+}
+
+/* Gantikan font-size tag <h1> didalam copy-container */
+.copy-container h1{
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+/* Gantikan font-size tag <h2> didalam copy-container */
+.copy-container h2{
+    opacity: 0.7;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+/* Gantikan color tags <span> didalam copy-container */
+.copy-container span{
+    color: red;
+}
+
+
+
+/* Gantikan tinggi contents ke 500px */
+.contents{
+    height: 500px;
+    margin-top: 100px;
+}
+
+/* Gantikan property border-bottom milik section-title */
+.section-title{
+    border: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+/* Gantikan property float milik contents-item ke left */
+.contents-item{
+    float: left;
+    margin-right: 50px;
+}
+
+.contents-item p{
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.contact-form{
+    padding-top: 100px;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input, textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit{
+    background: #dee7ec;
+    color: #889eab;
+}
+/* menargetkan selected footer */
+.footer{
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+/* menghilangkan list titik horizontal/buletan */
+li{
+    list-style: none;
+}
+
+/* memindahkan list menu dari kiri ke kanan atas */
+/* Pindahkan kedua baris dibawah kesekitar baris 58 
+li{
+    float: left;
+}
+mengatur posisi header-list ke dalam lapisan header
+li{
+    padding: 33px 20px;
+} 
+*/
+
+/* merubah ukuran logo dan memindahkan header list dari kiri ke kanan atas */
+.header-logo{
+    font-size: 36px;
+}
+.header-logo{
+    float: left;
+}
+
+/* mengatur posisi logo di dalam lapisan header */
+.header-logo{
+    padding: 20px 40px;
+}
+
+/* Tambahkan CSS tag <li> yang diatas kedalam header-list */
+.header-list li{
+    float: left;
+    padding: 33px 20px;
+}
+
+/* Gantikan font-size dan property float footer-logo */
+.footer-logo{
+    font-size: 32px;
+    float: left;
+}
+
+/* Gantikan float property footer-list */
+.footer-list{
+    float: right;
+    padding: 1px 5px;
+}
+
+/* Tambahkan CSS untuk tag <li> kedalam footer-list */
+.footer-list li{
+    padding-bottom: 20px;
+}
